@@ -17,6 +17,7 @@ cat vuln.txt | sort | uniq > nodupes.txt
 
 perl wget.pl nodupes.txt
 
+./update 15000
 
 
 #---Install / Fix SSH2 Issues //this will take a while---#
